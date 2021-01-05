@@ -27,11 +27,11 @@ namespace GenApp
         public double chromosomeToNumber(string chromosome) {
             double result = 0;
             int pow = 2;
-            for (int place = 1; place < chromosome.Length; place++) {
-                result += Math.Pow(2, pow) * int.Parse(chromosome[place].ToString());
+            foreach (char val in chromosome.Substring(1)) {
+                result += Math.Pow(2, pow) * int.Parse(val.ToString());
                 pow -= 1;
             }
-
+            
             return (int.Parse(chromosome[0].ToString()) == 0 ? -1 : 1)  * result;
         }
 
