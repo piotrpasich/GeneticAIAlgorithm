@@ -1,0 +1,9 @@
+C:\Users\papi\Desktop\MSI\AlgGenetyczny\GenApp\GenApp\bin\Debug\GenApp.exe
+C:\Users\papi\Desktop\MSI\AlgGenetyczny\GenApp\GenApp\bin\Debug\GenApp.pdb
+C:\Users\papi\Desktop\MSI\AlgGenetyczny\GenApp\GenApp\obj\Debug\GenApp.csprojAssemblyReference.cache
+C:\Users\papi\Desktop\MSI\AlgGenetyczny\GenApp\GenApp\obj\Debug\GenApp.Form1.resources
+C:\Users\papi\Desktop\MSI\AlgGenetyczny\GenApp\GenApp\obj\Debug\GenApp.Properties.Resources.resources
+C:\Users\papi\Desktop\MSI\AlgGenetyczny\GenApp\GenApp\obj\Debug\GenApp.csproj.GenerateResource.cache
+C:\Users\papi\Desktop\MSI\AlgGenetyczny\GenApp\GenApp\obj\Debug\GenApp.csproj.CoreCompileInputs.cache
+C:\Users\papi\Desktop\MSI\AlgGenetyczny\GenApp\GenApp\obj\Debug\GenApp.exe
+C:\Users\papi\Desktop\MSI\AlgGenetyczny\GenApp\GenApp\obj\Debug\GenApp.pdb
