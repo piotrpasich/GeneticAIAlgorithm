@@ -37,7 +37,6 @@ namespace GenApp
 
         public double ocen(string str)
         {
-            Console.WriteLine("this.calculateYFromEquation | " + str + "|" + this.chromosomeToNumber(str).ToString() + "|" + this.calculateYFromEquation(this.chromosomeToNumber(str)).ToString());
             return this.calculateYFromEquation(this.chromosomeToNumber(str));
         }
 
