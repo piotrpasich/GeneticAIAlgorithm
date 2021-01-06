@@ -17,15 +17,27 @@ namespace GenApp
         double bestocena = -100000;
 
         Random rnd;
- 
+
+        // -2* x^3/3+8* x^2-5
+        public double calculateYFromEquation (double x) {
+            return -2 * Math.Pow(x, 3) / 3 + 8 * Math.Pow(x, 2) - 5;
+        }
+
+       
+        public double chromosomeToNumber(string chromosome) {
+            double result = 0;
+            int pow = 2;
+            foreach (char val in chromosome.Substring(1)) {
+                result += Math.Pow(2, pow) * int.Parse(val.ToString());
+                pow -= 1;
+            }
+            
+            return (int.Parse(chromosome[0].ToString()) == 0 ? -1 : 1)  * result;
+        }
+
         public double ocen(string str)
         {
-            int cnt = 0;
-            for (int i = 0; i < str.Length; i++)
-            {
-                if (str[i].Equals('1')) cnt++;
-            }
-            return 30 * cnt + 150;
+            return this.calculateYFromEquation(this.chromosomeToNumber(str));
         }
 
         public string losuj()
